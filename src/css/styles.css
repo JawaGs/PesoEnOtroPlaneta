@@ -1,0 +1,54 @@
+/* Estilos Generales */
+*{
+  background-color: black;
+}
+/* Estilos de planetas */
+
+.planeta{
+  width: 6vw;
+  margin: 0 0.5vw;
+}
+
+.planeta:hover{
+  cursor: pointer;
+  width: 7vw;
+}
+
+.mercurio{
+  width: 3vw;
+  margin-left: 5vw;
+}
+.mercurio:hover{
+  width: 4vw;
+}
+
+.venus, .neptuno, .marte{
+  width: 5vw;
+}
+.venus:hover, .neptuno:hover, .marte:hover{
+  width: 6vw;
+}
+
+.jupiter{
+  width: 12vw;
+}
+.jupiter:hover{
+  width: 13vw;
+}
+
+.saturno{
+  width: 20vw;
+}
+.saturno:hover{
+  width: 21vw;
+}
+
+/* Estios de peso y presentacion */
+
+.pesoFinal{
+  margin-left: 25vw;
+}
+
+input{
+  margin-left: 30vw;
+}
